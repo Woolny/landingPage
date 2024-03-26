@@ -1,0 +1,49 @@
+/* Nav Section*/
+nav{
+    height: 100%;
+    color: #407154;
+    font-family: 'NovaFlat';
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 50%;
+    color: #50a070;
+    background-color: #407154;
+    padding: 5vh;
+    font-family: 'AbrilFatface';
+}
+
+#menu{
+    width: 45%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-right: 5%;
+    display: flex;
+
+    transition: all 0.4s ease-in-out;
+}
+
+#menu.menu-open{
+    transform: translate(0);
+}
+
+#menu a{
+    text-decoration: none;
+    color: #407154;
+    margin-left: 5rem;
+    transition: 0.4s ease-in-out;
+    
+}
+
+#menu a:hover{
+    text-decoration: none;
+    color: #50a070;    
+}

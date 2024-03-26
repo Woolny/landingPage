@@ -1,0 +1,44 @@
+/* Fonts */
+
+@font-face {
+    font-family: AbrilFatface;
+    src: url('fonts/Abril_Fatface.otf');
+}
+@font-face {
+    font-family: NovaFlat;
+    src: url('fonts/NovaFlat-Regular.ttf');
+}
+
+/* Commons */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9CAAB;
+}
+
+ul{
+    list-style: none;
+}
+
+#green-button span{
+    background: #407154;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: 0.6s ease-in-out;
+}
+
+#green-button span:hover{
+    background: #50a070;
+    border-radius: 25px;
+    color: #407154;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
