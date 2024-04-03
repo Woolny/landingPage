@@ -5,9 +5,10 @@
         font-size: 0.75rem;
         background: #407154;
     }
+    
     #menu{
+        transition: all 0.4s ease-in-out;
         padding: 1rem;
-        /* visibility: hidden; */
         position: fixed;
         width: 100%;
         background: #407154;
@@ -16,6 +17,7 @@
         top: 10vh;
         transform: translateX(100%);
     }
+
     #nav-list{
         flex-direction: column;
         align-items: center;
@@ -45,21 +47,25 @@
     main{
         flex-direction: column;
     }
+
     #photo-block{
         width: 100%;
         padding: 0px;
         margin: 0px;
     }
+
     #photo-block img{
         width: 400px;
         height: 400px;
     
     }
+
     #description{
         width: 100%;
         justify-content: center;
         align-items: center;
     }
+
     #description p{
         font-size: 2rem;
         margin-bottom: 0.75rem;
@@ -88,9 +94,10 @@
         font-size: 0.75rem;
         background: #407154;
     }
+    
     #menu{
+        transition: all 0.4s ease-in-out;
         padding: 1rem;
-        /* visibility: hidden; */
         position: fixed;
         width: 100%;
         background: #407154;
@@ -100,6 +107,7 @@
         transform: translateX(100%);
     }
     #nav-list{
+        transition: none;
         flex-direction: column;
         align-items: center;
         row-gap: 20px;
@@ -128,21 +136,25 @@
     main{
         flex-direction: column;
     }
+
     #photo-block{
         width: 100%;
         padding: 0px;
         margin: 0px;
     }
+
     #photo-block img{
         width: 400px;
         height: 400px;
     
     }
+
     #description{
         width: 100%;
         justify-content: center;
         align-items: center;
     }
+    
     #description p{
         font-size: 2rem;
         margin-bottom: 0.75rem;
@@ -166,7 +178,7 @@
 /* Large screens */
 @media (min-width: 1025px) and (max-width: 1440px) {
     nav {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     #menu a{

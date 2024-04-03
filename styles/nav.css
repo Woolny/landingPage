@@ -27,8 +27,6 @@ nav{
     padding-bottom: 5vh;
     margin-right: 5%;
     display: flex;
-
-    transition: all 0.4s ease-in-out;
 }
 
 #menu.menu-open{
